@@ -21,7 +21,7 @@ public class Main {
         //     System.out.println(shop.get());
         // }
         FileWorking fw = new FileWorking();
-        String assortInfo = "Ваши вероятные варианты выйгрыши: " + assortiment;
+        String assortInfo = "Ваши вероятные варианты выйгрыша: " + assortiment;
         fw.save(assortInfo);
         fw.save("\n");
         System.out.println(assortInfo);
@@ -30,7 +30,7 @@ public class Main {
             shop.pollInQueue(assortiment);
         }
 
-        String shopBuffer = "В Магазине Игрушек в данный момент находятся следующие игрушки: " + shop.pq;
+        String shopBuffer = "В Магазине Игрушек,в данный момент, находятся следующие игрушки: " + shop.pq;
         fw.save("\n");
         fw.save(shopBuffer);
         fw.save("\n");
