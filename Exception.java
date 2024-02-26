@@ -1,6 +1,6 @@
 package toyShop;
 
-public class FillException extends Exception{
+public class Exception extends Exception{
     //пока не задействовано
     
 }
