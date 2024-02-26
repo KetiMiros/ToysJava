@@ -24,7 +24,7 @@ public class FileWorking extends FileOperations{
     }
 
     @Override
-    public String read() {               // не стал реализовывать бизнес-логику метода, ТЗ не требует функции чтения из файла.
+    public String read() {               // не реализовано, т.к. ТЗ не требует от нас функции чтения из файла.
         try (FileReader fileReader = new FileReader(path)){
             // for (String raw : ) {
             return null;
